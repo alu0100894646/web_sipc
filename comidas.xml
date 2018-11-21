@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recomendador>
+  <comida>
+    <nombre>Papas Con Mojo Verde</nombre>
+    <Ingredientes>
+      -Papas
+      -Cilantro
+      -Aceite
+      -Perejil
+      -Ajo
+      -Sal
+    </Ingredientes>
+    <preparacion>
+      -Poner en un vaso para moler con el tercer brazo los ajos pelados, el manojo de perejil y cilantro.
+      -Agregar el aceite unos 150g y un poco de sal. Moler hasta que se mezcle bien todo, se puede triturar mas o menós según el gusto.
+      -Ahora poner las papas en un caldero y llenar de agua hasta cubrirlas por completo. Echar un buen puñado se sal para arrugarlas.
+      -Dejarlas cocer hasta que esten blandas al pincharlas. Una vez cocidas retirar el agua y ponerlas un poco sobre el fuego sin agua 
+       agitando el caldero para que se mezcle bien con la sal. Servir junto con el mojo.
+    </preparacion>
+    <tiempo> 
+      -Tiempo de preparación: 5 Min.
+      -Tiempo de cocción: ~20 Min.
+    </tiempo>
+    <caracteristicas>
+      Apto para celiacos y veganos.
+    </caracteristicas>
+  </comida>
+  <comida>
+    <nombre>Tollos en salsa</nombre>
+    <ingredientes>
+      -1/2 kilo de tollos
+      -1 cebolla
+      -4 dientes de ajo
+      -6 tomates
+      -1 pimiento rojo
+      -2 guindillas
+      -tomillo
+      -1 hoja de laurel
+      -orégano
+      -1 cucharada de pimentón
+      -vinagre
+      -1 vaso de agua
+      -colorante
+      -sal
+      -aceite de oliva
+    </ingredientes>
+    <preparacion>
+      - El día anterior ponemos a remojar los tollos en agua fría. Esta operación debemos efectuarla como tres veces, cambiándole el agua cada 4 o 5 horas.
+      - Ponemos a cocer los tollos con agua sin sal y cuando empiece a hervir bajamos el fuego a medio, ya que, al empezar a hervir soltará una espuma con lo cual
+      te recomiendo que controles el proceso para que no se rebose el caldero y dejamos unos 20 – 25 minutos. Una vez pasado este tiempo los escurrimos y reservamos.
+      - Mientras introducimos en un caldero con aceite de oliva la cebolla y los ajos picados.
+      - Rehogamos unos minutos y añadimos el pimiento también picadito.
+      - Removemos unos minutos y añadimos los tomates que habremos rallado y la cucharada de pimentón.
+      - Continuamos removiendo para que siga rehogando y añadimos la hoja de laurel, el tomillo, el orégano y las 2 guindillas. Seguimos removiendo y añadimos un chorro de vinagre (como dos dedos de un vaso).
+      - Los introducimos en el caldero con la salsa.
+      - Removemos todo bien y añadimos un vaso de agua.
+      - Para que tengan color añadimos un poco de colorante, al gusto. Rectificamos de sal con cuidado ya que el tollo es un poco salado. Dejamos a fuego medio durante
+        20 – 25 minutos para que se incorporen todos los sabores.
+      - Dejar reposar y los tollos en salsa están listos para comer.
+
+    </preparacion>
+    <tiempo> 
+      -Tiempo de preparación: 15 Min.
+      -Tiempo de cocción: 50 Min.
+    </tiempo>
+    <caracteristicas>
+      -Apto para celiacos
+    </caracteristicas>
+  </comida>
+  <comida>
+    <nombre>
+      Conejo en Salmorejo Canario
+    </nombre>
+    <ingredientes>
+      - 1 conejo limpio y troceado de unos 2 kg. aprox.
+      - 750 ml de vino blanco
+      - 250 ml. de vinagre de vino tinto
+      - 1 cabeza de ajos (unos 15 dientes de ajo aprox.)
+      - 1 hoja de laurel
+      - 1 pimienta picona
+      - 1 cucharada de cominos molidos
+      - 1 cucharada de pimentón dulce de la Vera "Las Hermanas"
+      - 1 cucharada de tomillo y otra de orégano. Si tenéis la posibilidad de emplearlos fresco, mucho mejor.
+      - Sal gorda (50 gr. aprox.)
+      - 600 ml. de aceite de oliva virgen extra suave (originariamente se empleaba manteca)
+    </ingredientes>
+    <preparacion>
+      
+    </preparacion>
+    <tiempo></tiempo>
+    <caracteristicas></caracteristicas>
+  </comida>
+  <comida>
+    <nombre></nombre>
+    <ingredientes></ingredientes>
+    <preparacion></preparacion>
+    <tiempo></tiempo>
+    <caracteristicas></caracteristicas>
+  </comida>
+  <comida>
+    <nombre></nombre>
+    <ingredientes></ingredientes>
+    <preparacion></preparacion>
+    <tiempo></tiempo>
+    <caracteristicas></caracteristicas>
+  </comida>
+  
+</recomendador>
