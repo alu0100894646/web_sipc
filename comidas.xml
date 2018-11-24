@@ -91,18 +91,67 @@
     <caracteristicas></caracteristicas>
   </comida>
   <comida>
-    <nombre></nombre>
-    <ingredientes></ingredientes>
-    <preparacion></preparacion>
-    <tiempo></tiempo>
-    <caracteristicas></caracteristicas>
+    <nombre>Escaldón de gofio</nombre>
+    <ingredientes>
+          -150 g gofio (el que más te guste)
+          -800 ml caldo de pescado
+          -2 costillas de cerdo desmenuzadas
+          -Aceite
+          -2 dientes ajo
+          -Cebolla picada (si es de su gusto)
+          -Hierbahuerto (hierbabuena)
+          -Mojo de Cilantro
+          -Mojo Rojo (suave o picante</ingredientes>
+    <preparacion>
+      1.- En un sartén doramos un poco los dientes de ajo.
+      2.-En un caldero ponemos los 800ml de caldo de pescado y les añadimos los dientes de ajo. Esperamos hasta que hierva.
+      3.-En un bol ponemos 100g de los 150g de gofio. Reservamos esos 50g para ir añadiendo según queramos la consistencia.
+      4.-Vamos añadiendo el caldo poco a poco y vamos mezclando bien con un tenedor o unas varillas.
+      5.-Desmenuzamos una de las costillas de cerdo y la agregamos al escaldón para que hayan "tropezones" en él.
+      6.-En una fuente servimos el escaldón y le ponemos la otra costilla desmenuzada, la cebolla picada y la hoja de hierbahuerto (hierbabuena).
+      7.-Se le añade por encima un poco de Mojo de Cilantro y de Mojo Rojo (suave o picante, al gusto)</preparacion>
+    <tiempo>20/25 minutos </tiempo>
+    <caracteristicas>Si es gofio de maiz no tiene gluten, por lo que sería apto para celíacos</caracteristicas>
   </comida>
   <comida>
-    <nombre></nombre>
-    <ingredientes></ingredientes>
-    <preparacion></preparacion>
-    <tiempo></tiempo>
-    <caracteristicas></caracteristicas>
+    <nombre>Bacalo encebollado Canario</nombre>
+    <ingredientes>
+      -4 lomos de bacalao al punto de sal
+      -2 cebollas grandes en juliana
+      -1 pimiento rojo en juliana
+      -1 pimiento verte en juliana
+      -4 tomates rallados
+      -3 dientes de ajo en láminas
+      -40gr pasas
+      -40gr almendra tostada toscamente picada
+      -Harina y harina de almendra en partes iguales (el que creáis necesario, servirá para rebozar)
+      -250ml vino blanco seco
+      -100ml agua
+      -1 cucharada sopera de vinagre de vino
+      -3 ramitas de tomillo
+      -1 hoja de laurel
+      -1 cucharadita de comino
+      -Aceite de oliva
+      -Sal
+Pimienta</ingredientes>
+    <preparacion>
+      Secamos bien los lomos de bacalao y lo pasamos por la mezcla de harina y harina de almendra, y lo freímos en aceite de oliva en nuestra cocotte baja de Le Creuset (en su defecto, cualquier otra cocotte de hierro te servirá). Retiramos a un plato y reservamos.
+
+      Si no se ha ensuciado en exceso el aceite, retiramos el exceso y empezamos con el encebollado. Para ello empezaremos dorando los ajos. Una vez dorados añadimos la cebolla y la pochamos bien.
+
+      Cuando la cebolla esté ligeramente dorada añadiremos los pimientos y pocharemos unos 10 minutos o hasta que estén hechos.
+
+      A continuación, incorporamos el tomate y los aromáticos, dejamos cocer hasta que el tomate haya reducido.
+      
+      Seguidamente añadimos el vino, el agua y el vinagre. Cocemos a fuego fuerte hasta que reduzca el líquido a la mitad y haya evaporado totalmente el alcohol.
+  
+      Por último, incorporamos las pasas, las almendras y los lomos de bacalao, con la piel hacia arriba, que hemos reservado. Bajamos el fuego y cocemos a fuego suave unos 10 minutos para terminar de cocer el pescado.
+
+</preparacion>
+    <tiempo>2 horas </tiempo>
+    <caracteristicas>
+      -Debe realizarse con 24 horas de antelación
+      -Apto para los que no consuman productos carnicos </caracteristicas>
   </comida>
   
 </recomendador>
