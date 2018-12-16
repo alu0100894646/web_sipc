@@ -1,8 +1,33 @@
 ﻿body
 {
-    overflow-y: scroll;
-    position: relative;
 }
-#second_bar {
-    
+#navbar{
+    overflow:hidden;
+
+}
+#nnavbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+.sticky + .content{
+    padding-top:60px;
 }
