@@ -1,4 +1,5 @@
 ﻿#mainNav {
+    
     background-color: burlywood;
 }
 .header{
@@ -43,4 +44,31 @@
     margin:5px;
     width:100%;
     height:300px;
+}
+#services{
+    background-color:aquamarine;
+}
+
+.service_list{
+    list-style:square;
+    margin-left:10px;
+
+}
+
+.service_list_title {
+    font-family: Georgia, serif;
+    font-size: 45px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.service_list_item {
+    font-family: Georgia, serif;
+    font-size:20px;
+    margin:0 0 8px 0;
+    padding-left: 10px;
+}
+.footer {
+    color: white;
+    font-family: Georgia, serif;
 }
