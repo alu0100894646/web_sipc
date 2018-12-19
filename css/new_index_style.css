@@ -1,33 +1,46 @@
-﻿body
-{
+﻿#mainNav {
+    background-color: burlywood;
 }
-#navbar{
-    overflow:hidden;
-
-}
-#nnavbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-}
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
+.header{
+    padding-top:50px;
+    text-align:center;
+    background-color:beige;
+    height:350px;
 }
 
-.content{
-    padding: 16px;
+.brandText {
+    font-family: Georgia, serif;
+    font-size:100px;
+    font-weight:900;
+}
+.brandTextDescription {
+    font-family: Georgia, serif;
+    font-size:30px;
 }
 
-.sticky{
-    position: fixed;
-    top: 0;
+#stickman{
+    margin-left:50px;
+    height:100px;
+    width:50px;
+}
+
+.center{
+    background-color:blanchedalmond;
+    padding-top:10px;
     width:100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align:center;
+}
+.center_list{
+    float:left;
+    
+    text-align:center;
+    width:33%;
 }
 
-.sticky + .content{
-    padding-top:60px;
+.center_list_img{
+    margin:5px;
+    width:100%;
+    height:300px;
 }

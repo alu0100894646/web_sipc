@@ -1,16 +1,13 @@
-// JavaScript source code
-//codigo js para el index
-
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function () { stickyNavbar() };
 
 var navbar = document.getElementById("navbar");
 
 var sticky = navbar.offsetTop;
 
-function scrollFunction() {
+function stickyNavbar() {
     if (window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
-    }else {
+    } else {
         navbar.classList.remove("sticky");
     }
 }
