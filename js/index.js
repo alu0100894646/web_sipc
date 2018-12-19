@@ -11,3 +11,7 @@ function stickyNavbar() {
         navbar.classList.remove("sticky");
     }
 }
+
+function registro() {
+    window.location = 'register.html'; 
+}
