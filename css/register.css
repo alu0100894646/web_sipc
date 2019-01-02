@@ -1,0 +1,24 @@
+﻿body
+{
+}
+
+#mainNav {
+    background-color: burlywood;
+}
+
+#navbar-brand{
+    left:0px;
+}
+
+#formulario {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+#send_form{
+    background-color:black;
+    color:white;
+    border:2px solid green;
+    width:100px;
+    height:40px;
+    border-radius: 12px;
+}
