@@ -2,14 +2,14 @@
 <recomendador>
   <comida>
     <nombre>Papas Con Mojo Verde</nombre>
-    <Ingredientes>
+    <ingredientes>
       -Papas
       -Cilantro
       -Aceite
       -Perejil
       -Ajo
       -Sal
-    </Ingredientes>
+    </ingredientes>
     <preparacion>
       -Poner en un vaso para moler con el tercer brazo los ajos pelados, el manojo de perejil y cilantro.
       -Agregar el aceite unos 150g y un poco de sal. Moler hasta que se mezcle bien todo, se puede triturar mas o menós según el gusto.
@@ -147,7 +147,8 @@
       -1 cucharadita de comino
       -Aceite de oliva
       -Sal
-Pimienta</ingredientes>
+      -Pimienta
+    </ingredientes>
     <preparacion>
       Secamos bien los lomos de bacalao y lo pasamos por la mezcla de harina y harina de almendra, y lo freímos en aceite de oliva en nuestra cocotte baja de Le Creuset (en su defecto, cualquier otra cocotte de hierro te servirá). Retiramos a un plato y reservamos.
 

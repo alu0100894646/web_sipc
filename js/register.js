@@ -24,7 +24,7 @@
         const pass = txtpassword.value;
         const auth = firebase.auth();
 
-        alert("Email" + email + "Pass" + pass);
+        //alert("Email" + email + "Pass" + pass);
 
         if (validateEmail(email)) {
 
@@ -39,7 +39,7 @@
         const email = txtemail.value;
         const pass = txtpassword.value;
         const auth = firebase.auth();
-        alert("Email" + email + "Pass" + pass);
+        //alert("Email" + email + "Pass" + pass);
         if (validateEmail(email)) {
             console.log('createuser');
             const promise = auth.createUserWithEmailAndPassword(email, pass);
@@ -49,13 +49,24 @@
         }
     });
 
+    btnLogout.addEventListener('click', e => {
+        firebase.auth().signOut();
+    })
+
     
     firebase.auth().onAuthStateChanged(firebaseUser => {
         if (firebaseUser) {
-            alert(firebaseUser);
+            console.log(firebaseUser)
+            alert("Bienvenido: " + firebaseUser.email)
+            btnLogout.style.visibility = "visible"
+            btnLogin.style.visibility = "hidden"
+            btnSingUp.style.visibility = "hidden"
         }
         else {
             console.log('Not logged in');
+            btnLogout.style.visibility = "hidden"
+            btnLogin.style.visibility = "visible"
+            btnSingUp.style.visibility = "visible"
         }
     });
 
