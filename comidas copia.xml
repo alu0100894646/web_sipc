@@ -3,14 +3,14 @@
 <recomendador>
   <comida>
     <nombre>Papas Con Mojo Verde</nombre>
-    <ingredientes>
+    <Ingredientes>
       -Papas
       -Cilantro
       -Aceite
       -Perejil
       -Ajo
       -Sal
-    </ingredientes>
+    </Ingredientes>
     <preparacion>
       -Poner en un vaso para moler con el tercer brazo los ajos pelados, el manojo de perejil y cilantro.
       -Agregar el aceite unos 150g y un poco de sal. Moler hasta que se mezcle bien todo, se puede triturar mas o menós según el gusto.
@@ -25,9 +25,6 @@
     <caracteristicas>
       Apto para celiacos y veganos.
     </caracteristicas>
-    <calorias>
-      10
-    </calorias>
   </comida>
   <comida>
     <nombre>Tollos en salsa</nombre>
@@ -70,9 +67,6 @@
     <caracteristicas>
       -Apto para celiacos
     </caracteristicas>
-     <calorias>
-      10
-    </calorias>
   </comida>
   <comida>
     <nombre>
@@ -110,9 +104,6 @@
     <caracteristicas>
       -Receta típica Canaria.
     </caracteristicas>
-     <calorias>
-      15
-    </calorias>
   </comida>
   <comida>
     <nombre>Escaldón de gofio</nombre>
@@ -136,9 +127,6 @@
       7.-Se le añade por encima un poco de Mojo de Cilantro y de Mojo Rojo (suave o picante, al gusto)</preparacion>
     <tiempo>20/25 minutos </tiempo>
     <caracteristicas>Si es gofio de maiz no tiene gluten, por lo que sería apto para celíacos</caracteristicas>
-     <calorias>
-      20
-    </calorias>
   </comida>
   <comida>
     <nombre>Bacalo encebollado Canario</nombre>
@@ -160,8 +148,7 @@
       -1 cucharadita de comino
       -Aceite de oliva
       -Sal
-      -Pimienta
-    </ingredientes>
+Pimienta</ingredientes>
     <preparacion>
       Secamos bien los lomos de bacalao y lo pasamos por la mezcla de harina y harina de almendra, y lo freímos en aceite de oliva en nuestra cocotte baja de Le Creuset (en su defecto, cualquier otra cocotte de hierro te servirá). Retiramos a un plato y reservamos.
 
@@ -180,9 +167,6 @@
     <caracteristicas>
       -Debe realizarse con 24 horas de antelación
       -Apto para los que no consuman productos carnicos </caracteristicas>
-       <calorias>
-      25
-    </calorias>
   </comida>
   
 </recomendador>
