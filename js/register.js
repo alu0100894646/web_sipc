@@ -10,7 +10,7 @@
         messagingSenderId: "828179745364"
     };
     firebase.initializeApp(config);
-
+    //Extraemos los elementos del formulario
     var txtemail = document.getElementById('txtEmail');
     var txtemailconf = document.getElementById('txtEmailConf');
     var txtpassword = document.getElementById('txtPasswd');
@@ -33,6 +33,9 @@
 
             promise.catch(e => console.log(e.message));
         }
+        else {
+            alert("Email no válido");
+        }
     });
 
     btnSingUp.addEventListener('click', e => {
@@ -40,12 +43,18 @@
         const pass = txtpassword.value;
         const auth = firebase.auth();
         //alert("Email" + email + "Pass" + pass);
-        if (validateEmail(email)) {
+        if (email != txtemailconf.value) {
+            alert("Los Emails no son iguales")
+        }
+        else if (validateEmail(email)) {
             console.log('createuser');
             const promise = auth.createUserWithEmailAndPassword(email, pass);
 
             promise.catch(e => console.log(e.message));
-            
+
+        }
+        else {
+            alert("Email no válido");
         }
     });
 
@@ -75,42 +84,4 @@
         return re.test(String(email).toLowerCase());
     }
 }());
-
-
-
-/* function register(F) {
-    var first_name = F.firstname.value;
-    var second_name = F.firstlastname.value;
-    var last_name = F.secondlastname.value;
-    var password = F.password.value;
-    var email = F.email.value;
-    var email_conf = F.email_conf.value;
-
-    if (!validateEmail(email)) {
-        alert("Email no válido");
-        return 0;
-    }
-    else if (email === "") {
-        alert("Email vacío");
-        return 0;
-    }
-    else if (email != email_conf) {
-        alert("Confirmación de email no valida");
-        return 0;
-    }
-    else if (password === "") {
-        alert("Contraseña no válida");
-        return 0;
-    }
-    else {
-        firebase.auth().createUserWithEmailAndPassword(email, password).catch(function (error) {
-            // Handle Errors here.
-            var errorCode = error.code;
-            var errorMessage = error.message;
-            
-            // ...
-        });
-        alert("Usuario creado");
-    }
-}*/
 
