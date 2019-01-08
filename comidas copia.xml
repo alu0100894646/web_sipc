@@ -25,9 +25,6 @@
     <caracteristicas>
       Apto para celiacos y veganos.
     </caracteristicas>
-    <calorias>
-      10
-    </calorias>
   </comida>
   <comida>
     <nombre>Tollos en salsa</nombre>
@@ -70,9 +67,6 @@
     <caracteristicas>
       -Apto para celiacos
     </caracteristicas>
-     <calorias>
-      10
-    </calorias>
   </comida>
   <comida>
     <nombre>
@@ -110,9 +104,6 @@
     <caracteristicas>
       -Receta típica Canaria.
     </caracteristicas>
-     <calorias>
-      15
-    </calorias>
   </comida>
   <comida>
     <nombre>Escaldón de gofio</nombre>
@@ -136,9 +127,6 @@
       7.-Se le añade por encima un poco de Mojo de Cilantro y de Mojo Rojo (suave o picante, al gusto)</preparacion>
     <tiempo>20/25 minutos </tiempo>
     <caracteristicas>Si es gofio de maiz no tiene gluten, por lo que sería apto para celíacos</caracteristicas>
-     <calorias>
-      20
-    </calorias>
   </comida>
   <comida>
     <nombre>Bacalo encebollado Canario</nombre>
@@ -179,9 +167,6 @@ Pimienta</ingredientes>
     <caracteristicas>
       -Debe realizarse con 24 horas de antelación
       -Apto para los que no consuman productos carnicos </caracteristicas>
-       <calorias>
-      25
-    </calorias>
   </comida>
   
 </recomendador>
