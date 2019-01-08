@@ -29,8 +29,28 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
            </span>
         </div> 
       </xsl:for-each>
+
+      <xsl:apply-templates/>
     </body>
   </html>
+  </xsl:template>
+  <xsl:template match="comidas">
+    <p>
+      <xsl:apply-templates select="nombre"/>
+      <xsl:apply-templates select="tiempo"/>
+    </p>
+  </xsl:template>
+  <xsl:template match="nombre">
+    Receta: <span style="color:#ff0000">
+      <xsl:value-of select="."/>
+    </span>
+    <br/>
+  </xsl:template>
+  <xsl:template match="tiempo">
+    Tiempo para realizar la receta: <span style="color:#00ff00">
+      <xsl:value-of select="."/>
+      <br></br>
+    </span>
   </xsl:template>
 </xsl:stylesheet>
 
