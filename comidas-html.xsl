@@ -6,9 +6,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
       
       <xsl:for-each select="recomendador/comida">
-        <xsl:sort select="nombre"/>
+        <!--Ordenación a través de los nombres de las recetas-->
+        <xsl:sort select="nombre"/> 
           <div style="background-color:teal;color:white;padding:4px">
           <span style="font-weight:bold">
+            <!-- Utilizzación del condicional para que solo se muestren aquellas recetas cuyas calorías sean mayores que 10-->
             <xsl:if test="calorias &gt; 10">
                 <ul>
                   <li>
@@ -30,9 +32,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </body>
   </html>
   </xsl:template>
-
+<!-- Uso de plantillas-->
   <xsl:template match="recomendador/comida">
     
+    <!-- Aplicación de las plantillas para que muestren el nombre, el timpo y las calorias en diferentes colores-->
     <xsl:apply-templates select="nombre"/>
     <xsl:apply-templates select="tiempo"/>
     <xsl:apply-templates select="calorias"/>
@@ -40,6 +43,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
 
   <xsl:template match="nombre">
+    <!-- Uso de plantilla para mostrar el nombre de las recetas en mayusuculas-->
     <xsl:variable name="smallcase" select="'abcdefghijklmnopqrstuvwxyz'" /> 
     <xsl:variable name="uppercase" select="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'" /> 
      
