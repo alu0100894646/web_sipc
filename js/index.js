@@ -2,3 +2,7 @@
 function registro() {
     window.location = 'register.html'; 
 }
+
+function pensamiento() {
+	window.location = 'pensamiento.html';
+}

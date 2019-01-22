@@ -1,0 +1,14 @@
+#mainNav {
+    background-color: burlywood;
+}
+.titulo{
+	text-align: center;
+	background-color: burlywood;
+}
+#navbar-brand{
+    left:0px;
+}
+.footer {
+    color: white;
+    font-family: Georgia, serif;
+}
